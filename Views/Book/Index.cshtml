@@ -1,0 +1,6 @@
+﻿@using EbruDilaAydın_BookStore.Data;
+@model List<Book>
+@foreach (var Book in Model)
+{
+	<h4> @Book.Id - @Book.Name</h4>
+}
